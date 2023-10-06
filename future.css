@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-login{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.overlay{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: -1;
+    height: 100vh;
+    background: gray;
+    opacity: 0%;
+    transition: 1s;
+}
+.showoverlay{
+    opacity: 1;
+    z-index: 1;
+}
+.loginform{
+    width: 350px;
+    padding: 30px 20px;
+    background-color: white; 
+    position: absolute; 
+    transform: 2s;
+    left: 50%;
+    top: -50%; 
+    box-shadow: 0px 0px 10px gray;
+    transform: translate(50%,-50%);
+}
+.showloginform{
+    top: 50%;
+}
+.loginform input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+}
+.loginform button{
+    background-color:black;
+    color: white;
+    padding: 10px 15px;
+}
+.loginform span{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color:blue;
+    right: 0px;
+    top: 0px;
+}
